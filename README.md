@@ -68,6 +68,9 @@ out put should be:
     3.1远程调试jar包：在Run-Edit Configuration里面新建一个Remote，复制地址到CMD里面，输入JAVA -jar 地址，再到IDE里面点调试，就能调试jar包了  
     3.2手动移动jar中的文件地址（牛逼  
     3.3移动依赖包的前后顺序ProjectStructure-Modules-Dendencies 选中需要调整的，然后上下移动  
+    4、【变量与端口】  
+    每次端口调用时需要更新初始化的变量一定要放在端口内部，不能放在类里面但是在端口外面，不然会保存上一次的结果，导致结果越来越多
+    
     
     
     
